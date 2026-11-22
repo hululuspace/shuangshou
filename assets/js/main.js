@@ -1,0 +1,72 @@
+(function () {
+  "use strict";
+  const translations = {
+    zh: {
+      brandName:"新移民帮扶中心",navHome:"首页",navPrograms:"项目与发展机会",navNews:"新闻与最新动态",navContact:"联系我们",
+      heroEyebrow:"CANADA · RESOURCES · OPPORTUNITIES",heroTitle:"连接加拿大资源<br><em>开启更多发展可能</em>",heroText:"整合多省移民项目、投资机会与雇主资源，为潜在移民及新移民搭建信息与项目对接的桥梁。",heroButton1:"探索项目 <span>↗</span>",heroButton2:"联系中心",heroNote:"立足加拿大 · 连接多省资源",
+      aboutEyebrow:"WHO WE ARE",aboutTitle:"让资源连接更简单，<br>让发展选择更丰富。",aboutText:"新移民帮扶中心是一个面向潜在移民及加拿大新移民的资源对接平台。我们关注加拿大不同省份的投资、创业、技术及雇主相关项目，协助有需要的人士了解项目资讯、探索发展方向，并连接相关资源。",learnMore:"了解我们的项目 <span>→</span>",
+      focusEyebrow:"WHAT WE CONNECT",focusTitle:"多元资源，更多可能",focusLead:"从移民项目资讯到实际商业与雇主资源，探索适合自身背景和目标的机会。",focus1Title:"投资与商业机会",focus1Text:"关注农业、农场及区域商业发展项目，了解加拿大不同地区的投资与创业资源。",focus2Title:"技术类移民项目",focus2Text:"关注各省技术人才项目、职业需求及区域性机会，了解不同的申请路径。",focus3Title:"雇主资源对接",focus3Text:"关注农场、农业企业及其他行业的雇主资源与就业相关项目机会。",
+      regionCaption:"连接不同省份的资源与机会",regionEyebrow:"ACROSS PROVINCES",regionTitle:"立足加拿大，<br>关注多省发展机会。",regionText:"我们重点关注加拿大草原省份及海洋省份的项目资源，同时持续拓展其他省份的合作与发展机会。不同地区、不同背景，都可能有值得进一步了解的方向。",regionTag1:"草原省份",regionTag2:"海洋省份",regionTag3:"加拿大其他地区",viewPrograms:"查看项目与机会 <span>→</span>",
+      pathEyebrow:"A PLACE TO START",pathTitle:"每个人的起点不同，<br><em>适合的机会也不同。</em>",pathText:"无论您正在规划移民加拿大，还是已经在加拿大寻找新的发展方向，都欢迎与我们交流，了解可进一步探索的项目与资源。",pathButton:"与我们联系 <span>↗</span>",
+      footerLine:"连接资源 · 支持新移民 · 探索更多可能",footerDisclaimer:"本网站提供项目资讯与资源信息，不代表政府机构。",
+      programHeroEyebrow:"PROGRAMS & OPPORTUNITIES",programHeroTitle:"项目与发展机会",programHeroText:"了解加拿大不同省份的项目资源，探索适合自身背景与发展目标的方向。",programIntroEyebrow:"EXPLORE YOUR OPTIONS",programIntroTitle:"多种路径，按需探索",programIntroText:"我们整合不同类别的项目资讯与资源线索，帮助您更清晰地了解机会。具体资格、政策和项目条件以官方最新信息及项目方要求为准。",
+      investmentTitle:"投资类与商业发展机会",investmentText:"关注加拿大不同地区的投资、创业及商业发展资源，包括农业、农场、区域商业项目等。协助有意投资或创业的人士了解项目背景、地区特点及可能涉及的相关政策路径。",investmentBullet1:"农业及农场相关项目资源",investmentBullet2:"区域商业与创业机会",investmentBullet3:"投资项目资讯与资源对接",
+      skilledTitle:"技术类移民项目",skilledText:"关注各省技术人才及区域性移民项目，包括职业需求、人才类别、省提名相关资讯等，帮助申请人初步了解不同地区的项目方向与信息来源。",skilledBullet1:"各省技术人才项目资讯",skilledBullet2:"职业类别与区域需求信息",skilledBullet3:"不同省份路径的初步了解",
+      employerTitle:"雇主类项目与资源对接",employerText:"关注加拿大当地企业、农场及农业相关雇主资源，分享雇主支持类项目资讯及相关就业机会。具体职位、雇佣条件和移民资格需根据雇主及适用政策分别核实。",employerBullet1:"农场及农业企业资源",employerBullet2:"当地企业及雇主机会",employerBullet3:"雇主支持类项目资讯",askAbout:"咨询相关机会 <span>→</span>",
+      newcomerEyebrow:"FOR CURRENT NEWCOMERS",newcomerTitle:"已经在加拿大？<br>也可以重新探索发展方向。",newcomerText:"如果您希望了解其他省份的项目、投资创业资源或雇主机会，我们可以协助您寻找相关信息与对接方向。",newcomerButton:"了解新移民资源 <span>↗</span>",importantTitle:"重要说明",importantText:"本网站内容用于一般项目资讯与资源介绍，不构成法律、移民或投资建议，也不保证任何申请结果。移民项目政策、资格及申请条件可能变化，请以加拿大政府及相关省份官方发布为准。需要个性化移民法律建议或申请代理服务时，请咨询加拿大持牌移民顾问或律师。",
+      newsHeroEyebrow:"NEWS & UPDATES",newsHeroTitle:"新闻与最新动态",newsHeroText:"关注政策信息、项目发布与中心动态，及时了解值得关注的变化与机会。",newsIntroEyebrow:"STAY INFORMED",newsIntroTitle:"信息更新，机会同行",newsIntroText:"本栏目用于分享公开政策资讯、项目动态及中心消息。发布内容时请注明来源和日期，并以官方最新信息为准。",filterAll:"全部",filterPolicy:"政策资讯",filterProjects:"项目发布",filterCentre:"中心动态",sampleCategory1:"政策资讯 · 示例栏目",sampleCategory2:"项目发布 · 示例栏目",sampleCategory3:"中心动态 · 示例栏目",sampleDate:"更新日期待填写",sampleTitle1:"加拿大移民政策资讯更新",sampleTitle2:"加拿大农业及商业项目资源",sampleTitle3:"资源交流与合作动态",sampleText1:"在此填写政府公告、政策变化或官方项目更新的简要摘要，并附上原始信息来源。",sampleText2:"在此介绍新发布或正在对接的项目，包括项目地区、基本情况、适合人群及咨询方式。",sampleText3:"在此分享中心活动、合作交流、项目说明会及其他值得关注的消息。",sampleHint:"示例内容 · 发布前请替换",newsMaintenance:"网站初期采用静态内容维护。您可以直接编辑 news.html 中的新闻卡片，替换标题、摘要、日期和图片；无需后台或数据库。",
+      contactHeroEyebrow:"GET IN TOUCH",contactHeroTitle:"联系我们",contactHeroText:"欢迎与我们联系，交流项目资讯、资源合作及相关发展机会。",contactIntroEyebrow:"LET'S CONNECT",contactIntroTitle:"从一次交流开始，<br>探索下一步可能。",contactIntroText:"请通过电话、电子邮件或微信与我们联系。告诉我们您关注的项目类型和所在地区，我们将尽力协助您了解相关信息与资源。",emailLabel:"电子邮箱 / EMAIL",phoneLabel:"联系电话 / PHONE",locationLabel:"服务区域 / LOCATION",locationValue:"加拿大 · 多省项目资源",qrEyebrow:"SCAN TO CONNECT",qrTitle:"扫码添加微信",qrText:"请将此占位图替换为您的微信二维码图片。",contactBottomEyebrow:"HAVE A QUESTION?",contactBottomTitle:"期待与您建立联系。",emailButton:"发送邮件 <span>↗</span>"
+    },
+    en: {
+      brandName:"Newcomer Resource Centre",navHome:"Home",navPrograms:"Programs & Opportunities",navNews:"News & Updates",navContact:"Contact",
+      heroEyebrow:"CANADA · RESOURCES · OPPORTUNITIES",heroTitle:"Connecting Canadian Resources<br><em>Creating New Possibilities</em>",heroText:"We connect prospective immigrants and newcomers with information on programs, investment opportunities and employer resources across Canada.",heroButton1:"Explore Programs <span>↗</span>",heroButton2:"Contact Us",heroNote:"Based in Canada · Connecting provincial resources",
+      aboutEyebrow:"WHO WE ARE",aboutTitle:"Making connections easier.<br>Opening up more possibilities.",aboutText:"Newcomer Resource Centre is a resource-connection platform for prospective immigrants and newcomers to Canada. We focus on investment, entrepreneurship, skilled worker and employer-related opportunities across different provinces, helping people explore information, directions and relevant connections.",learnMore:"Explore our programs <span>→</span>",
+      focusEyebrow:"WHAT WE CONNECT",focusTitle:"Resources for new possibilities",focusLead:"From immigration program information to business and employer resources, explore opportunities that may align with your background and goals.",focus1Title:"Investment & Business",focus1Text:"Explore agriculture, farm-related and regional business opportunities, along with investment and entrepreneurship resources in different parts of Canada.",focus2Title:"Skilled Worker Programs",focus2Text:"Learn about provincial skilled worker streams, occupational needs and regional opportunities across Canada.",focus3Title:"Employer Connections",focus3Text:"Explore employer-related resources and opportunities in agriculture, farming and other industries.",
+      regionCaption:"Connecting resources and opportunities across provinces",regionEyebrow:"ACROSS PROVINCES",regionTitle:"Rooted in Canada.<br>Connected across provinces.",regionText:"We pay particular attention to opportunities in Canada's Prairie and Atlantic provinces while continuing to build connections in other regions. Different locations and backgrounds may offer different paths worth exploring.",regionTag1:"Prairie Provinces",regionTag2:"Atlantic Provinces",regionTag3:"Other Canadian Regions",viewPrograms:"View programs & opportunities <span>→</span>",
+      pathEyebrow:"A PLACE TO START",pathTitle:"Every journey is different.<br><em>So are the opportunities.</em>",pathText:"Whether you are planning to immigrate to Canada or are already here and exploring a new direction, we welcome you to connect with us and learn about relevant programs and resources.",pathButton:"Get in touch <span>↗</span>",
+      footerLine:"Connecting resources · Supporting newcomers · Exploring possibilities",footerDisclaimer:"This website shares program information and resources. It is not a government website.",
+      programHeroEyebrow:"PROGRAMS & OPPORTUNITIES",programHeroTitle:"Programs & Opportunities",programHeroText:"Explore resources across Canadian provinces and discover directions that may fit your background and goals.",programIntroEyebrow:"EXPLORE YOUR OPTIONS",programIntroTitle:"Different pathways to explore",programIntroText:"We bring together information and resource leads across several categories. Eligibility, policies and program requirements should always be confirmed through current official sources and relevant program providers.",
+      investmentTitle:"Investment & Business Opportunities",investmentText:"Explore investment, entrepreneurship and business development resources in different parts of Canada, including agriculture, farm-related and regional business projects. We help interested individuals learn about project backgrounds, regional characteristics and potentially relevant policy pathways.",investmentBullet1:"Agriculture and farm-related resources",investmentBullet2:"Regional business and entrepreneurship opportunities",investmentBullet3:"Investment information and resource connections",
+      skilledTitle:"Skilled Worker Immigration Programs",skilledText:"Learn about provincial skilled worker and regional immigration programs, including occupational needs, talent streams and provincial nomination information. This is an introduction to program directions and information sources.",skilledBullet1:"Provincial skilled worker program information",skilledBullet2:"Occupational categories and regional needs",skilledBullet3:"An introduction to pathways across provinces",
+      employerTitle:"Employer-Supported Programs & Connections",employerText:"We follow employer resources among Canadian businesses, farms and agricultural enterprises, and share information about employer-supported programs and related employment opportunities. Specific roles, employment terms and immigration eligibility must be verified individually.",employerBullet1:"Farm and agricultural business resources",employerBullet2:"Local business and employer opportunities",employerBullet3:"Employer-supported program information",askAbout:"Ask about opportunities <span>→</span>",
+      newcomerEyebrow:"FOR CURRENT NEWCOMERS",newcomerTitle:"Already in Canada?<br>Explore a new direction.",newcomerText:"If you are interested in programs in other provinces, investment and business resources, or employer opportunities, we can help you identify relevant information and potential connections.",newcomerButton:"Explore newcomer resources <span>↗</span>",importantTitle:"Important Information",importantText:"Content on this website is for general program information and resource-sharing purposes only. It does not constitute legal, immigration or investment advice and does not guarantee any application outcome. Policies, eligibility and program requirements may change. Always refer to the latest information published by the Government of Canada and relevant provincial authorities. For personalized immigration advice or representation, consult an authorized Canadian immigration consultant or lawyer.",
+      newsHeroEyebrow:"NEWS & UPDATES",newsHeroTitle:"News & Updates",newsHeroText:"Follow policy information, program announcements and centre updates to stay informed about developments and opportunities.",newsIntroEyebrow:"STAY INFORMED",newsIntroTitle:"Stay informed. Stay connected.",newsIntroText:"This section shares public policy information, project updates and centre news. Include the source and publication date with each post, and verify details against current official information.",filterAll:"All",filterPolicy:"Policy Updates",filterProjects:"Project Updates",filterCentre:"Centre News",sampleCategory1:"POLICY · SAMPLE",sampleCategory2:"PROJECTS · SAMPLE",sampleCategory3:"CENTRE · SAMPLE",sampleDate:"Date to be added",sampleTitle1:"Canadian Immigration Policy Updates",sampleTitle2:"Agriculture & Business Opportunities in Canada",sampleTitle3:"Resource Exchange & Partnership Updates",sampleText1:"Add a short summary of a government announcement, policy change or official program update here, together with the original source.",sampleText2:"Introduce a newly announced or available project, including its region, overview, intended audience and contact information.",sampleText3:"Share centre events, partnership activities, information sessions and other relevant updates here.",sampleHint:"Sample content · Replace before publishing",newsMaintenance:"This site uses static content at launch. Edit the news cards in news.html to update titles, summaries, dates and images. No admin system or database is required.",
+      contactHeroEyebrow:"GET IN TOUCH",contactHeroTitle:"Contact Us",contactHeroText:"Connect with us to discuss program information, resource partnerships and development opportunities.",contactIntroEyebrow:"LET'S CONNECT",contactIntroTitle:"Start with a conversation.<br>Explore what comes next.",contactIntroText:"Reach us by phone, email or WeChat. Let us know which types of programs and regions you are interested in, and we will do our best to help you explore relevant information and resources.",emailLabel:"EMAIL",phoneLabel:"PHONE",locationLabel:"LOCATION",locationValue:"Canada · Multi-provincial resources",qrEyebrow:"SCAN TO CONNECT",qrTitle:"Connect on WeChat",qrText:"Replace this placeholder with your WeChat QR code image.",contactBottomEyebrow:"HAVE A QUESTION?",contactBottomTitle:"We look forward to connecting.",emailButton:"Send an email <span>↗</span>"
+    }
+  };
+  const saved = localStorage.getItem("nrc-language");
+  let lang = saved === "en" ? "en" : "zh";
+  function applyLanguage() {
+    document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
+    document.querySelectorAll("[data-i18n]").forEach(el => {
+      const key = el.getAttribute("data-i18n");
+      if (translations[lang][key] !== undefined) el.innerHTML = translations[lang][key];
+    });
+    document.querySelectorAll(".lang-toggle").forEach(btn => btn.textContent = lang === "zh" ? "EN" : "中文");
+  }
+  document.querySelectorAll(".lang-toggle").forEach(btn => btn.addEventListener("click", () => {
+    lang = lang === "zh" ? "en" : "zh";
+    localStorage.setItem("nrc-language", lang);
+    applyLanguage();
+  }));
+  const menuButton = document.querySelector(".menu-toggle");
+  const nav = document.querySelector(".main-nav");
+  if (menuButton && nav) menuButton.addEventListener("click", () => {
+    const open = nav.classList.toggle("open");
+    menuButton.setAttribute("aria-expanded", String(open));
+  });
+  document.querySelectorAll(".main-nav a").forEach(link => link.addEventListener("click", () => {
+    if (nav) nav.classList.remove("open");
+    if (menuButton) menuButton.setAttribute("aria-expanded", "false");
+  }));
+  document.querySelectorAll(".filter-btn").forEach(btn => btn.addEventListener("click", () => {
+    document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    const filter = btn.dataset.filter;
+    document.querySelectorAll(".news-card").forEach(card => {
+      card.hidden = filter !== "all" && card.dataset.category !== filter;
+    });
+  }));
+  document.querySelectorAll(".year").forEach(el => el.textContent = new Date().getFullYear());
+  applyLanguage();
+})();

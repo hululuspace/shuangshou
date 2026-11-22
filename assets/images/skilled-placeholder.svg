@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b6b9b0"/><stop offset="1" stop-color="#e8e6dd"/></linearGradient></defs>
+<rect width="1200" height="700" fill="url(#g)"/>
+<circle cx="930" cy="170" r="115" fill="#fffefa" opacity=".23"/>
+<path d="M0 510 Q240 400 470 510 T950 470 T1200 500 V700 H0Z" fill="#fffefa" opacity=".24"/>
+<path d="M0 575 Q240 485 500 570 T1000 545 T1200 560 V700 H0Z" fill="#9c927e" opacity=".2"/>
+<text x="600" y="355" text-anchor="middle" fill="#fffefa" font-family="Arial,sans-serif" font-size="34" letter-spacing="8">SKILLED WORKER</text>
+<text x="600" y="405" text-anchor="middle" fill="#fffefa" opacity=".8" font-family="Arial,sans-serif" font-size="18" letter-spacing="4">REPLACE WITH YOUR IMAGE</text>
+</svg>
